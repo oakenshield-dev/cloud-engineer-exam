@@ -179,3 +179,11 @@ For this, the retrospective ceremony is usually planned at a time and day when t
 - In some section important points are written down that work as next steps
 - It should be identified if it is necessary for any of these topics to be seen in a meeting after the retrospective meeting.
 - The mural is saved to have it as a reference in the sprint and take into account what we have to work on and to know that we have improved.
+
+## Bonus Question:
+
+**Design and diagram two use cases for S3 Object Lambda, that when using API Gateway + Lambda + S3 represent an overhead in the solution.**
+
+1. The lambda response to multiple requests from different routes
+
+![Monolitich Lambda](resources/monolitich-lambda.png)
