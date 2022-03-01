@@ -50,16 +50,16 @@ The proposal is to use the existing transit gateway to manage the access between
 
 ```bash
 	lambda/
-		│
-	    ├── .github/workflows/
-	    │   └── deploy-lambda.yml
-		├── terraform/
-	    │   ├── main.tf
-	    │   ├── lambda.tf
-	    │   └── variables.tf
-	    ├── lambda.js
-		├── update.sh
-		└── README.md
+	│
+	├── .github/workflows/
+	│   └── deploy-lambda.yml
+	├── terraform/
+	│   ├── main.tf
+	│   ├── lambda.tf
+	│   └── variables.tf
+	├── lambda.js
+	├── update.sh
+	└── README.md
 ```
 
 2. You will configure the AWS credentials of the account that will be used in the github secrets.
@@ -119,29 +119,29 @@ terraform/
 	        ├── project-01/
 	        │   ├── development/
 	        │   │   ├── network
-			│   │   ├── database
-			│   │   ├── (more layers)
+		│   │   ├── database
+		│   │   ├── (more layers)
 	        │   ├── staging/
-		    │   │   ├── network
-			│   │   ├── database
-			│   │   ├── (more layers)
-			│   └── production/
-		    │       ├── network
-			│       ├── database
-			│       └── (more layers)
+		│   │   ├── network
+		│   │   ├── database
+		│   │   ├── (more layers)
+		│   └── production/
+		│       ├── network
+		│       ├── database
+		│       └── (more layers)
 	        └── project-02/
-			         ├── development/
-					 │   ├── network
-					 │   ├── database
-					 │   └── (more layers)
-				     ├── staging/
-					 │   ├── network
-					 │   ├── database
-					 │   └── (more layers)
-					 └── production/
-					           ├── network
-						       ├── database
-						       └── (more layers)
+			├── development/
+			│   ├── network
+			│   ├── database
+			│   └── (more layers)
+			├── staging/
+			│   ├── network
+			│   ├── database
+			│   └── (more layers)
+			└── production/
+			    ├── network
+			    ├── database
+			    └── (more layers)
 ```
 
 ## Question 5:
