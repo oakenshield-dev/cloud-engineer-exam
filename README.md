@@ -187,3 +187,7 @@ For this, the retrospective ceremony is usually planned at a time and day when t
 1. The lambda response to multiple requests from different routes
 
 ![Monolitich Lambda](resources/monolitich-lambda.png)
+
+2. Recursive invocation loops
+
+![Recursive invocation loops](resources/recursive.png)
